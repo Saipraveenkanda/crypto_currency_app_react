@@ -1,0 +1,30 @@
+.crypto-list-item {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 8px;
+}
+.logo-name-card {
+  display: flex;
+  align-items: center;
+}
+.currency-logo {
+  width: 30px;
+}
+.name {
+  font-size: 14px;
+  color: #fff;
+  margin-left: 5px;
+}
+.values-card {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+.value {
+  font-size: 14px;
+  color: #fff;
+}

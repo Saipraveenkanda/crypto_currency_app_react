@@ -1,0 +1,50 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.crypto-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.crypto-heading {
+  font-size: 40px;
+  color: #00e7ff;
+  font-weight: bold;
+  text-align: center;
+}
+.bg-logo {
+  width: 100%;
+}
+.crypto-table {
+  border: 5px solid #00e7ff;
+  border-radius: 8px;
+  width: 80%;
+}
+.table-heading-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #092e33;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.country-names {
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.table-heading-text {
+  font-size: 16px;
+  color: #fff;
+}
+.cryptos-list-container {
+  padding-left: 0;
+}
